@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Application</title>
+  <style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300vh;
+    margin: 0;
+  }
+  a{
+    text-decoration: none;
+  }
+  .quiz-container, .landing-container, .results-container {
+    background-color: white;
+    padding: 100px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(9, 212, 36, 0.1);
+    width: 300px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #result {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .question {
+    margin-bottom: 45px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  nav{
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  footer{
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: end;
+  }
+  p{
+    text-align: center;
+  }
+  
+</style>
+</head>
+<body>
+  <nav>
+    <h1>Welcome to the Quiz Application</h1>
+  </nav>
+  <div class="quiz-container">
+    <h1>Quiz</h1>
+    <div id="quiz">
+      <!-- Questions will be loaded dynamically here -->
+    </div>
+    <button id="submit-btn">Submit</button>
+    <p>Go to main page..<a href="project1.html">main</a> </p>
+  </div>
+
+  <script src="project1.js"></script>
+</body>
+<footer>
+  Follow us on.....
+  <a href="https://www.youtube.com/@KeyPointsEducation">Youtube</a>
+</footer>
+</html>
